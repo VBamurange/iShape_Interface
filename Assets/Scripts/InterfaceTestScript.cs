@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class InterfaceTestScript : MonoBehaviour
 {
-    // Start is called before the first frame update
+    
     void Start()
     {
         Trapezium x = new Trapezium(5, 7, 6.5);
@@ -51,7 +51,6 @@ public class Trapezium : IShape
     public double CalculatePerimeter()
     {
         // Assuming the other sides are equal to the height (for simplification).
-        // In real-world cases, you should have all side lengths.
         return base_a + base_b + 2 * height;
     }
 }
