@@ -50,7 +50,7 @@ public class Trapezium : IShape
 
     public double CalculatePerimeter()
     {
-        // Assuming the other sides are equal to the height (for simplification).
+        
         return base_a + base_b + 2 * height;
     }
 }
