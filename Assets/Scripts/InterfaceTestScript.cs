@@ -9,9 +9,9 @@ public class InterfaceTestScript : MonoBehaviour
     
     void Start()
     {
-        Trapezium x = new Trapezium(5, 7, 6.5);
-        Circle y = new Circle(4);
-        Nonagon z = new Nonagon(9, 3);
+        Trapezium x = new Trapezium(7, 5, 2.5);
+        Circle y = new Circle(6);
+        Nonagon z = new Nonagon(9, 6);
 
         UnityEngine.Debug.Log("Area of Trapezium: " + x.CalculateArea());
         UnityEngine.Debug.Log("Perimeter of Trapezium: " + x.CalculatePerimeter());
